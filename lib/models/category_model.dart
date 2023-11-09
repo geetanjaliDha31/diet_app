@@ -16,22 +16,22 @@ class CategoryModel {
 
     categories.add(CategoryModel(
         name: "Salad",
-        iconPath: "assets/icons/salad.png",
+        iconPath: "/icons/salad.png",
         boxColor: const Color.fromARGB(255, 151, 174, 204)));
 
     categories.add(CategoryModel(
         name: "Cake",
-        iconPath: "assets/icons/pancakes.png",
+        iconPath: "/icons/pancakes.png",
         boxColor: const Color.fromARGB(255, 246, 180, 233)));
 
     categories.add(CategoryModel(
         name: "Pie",
-        iconPath: "assets/icons/pie.png",
+        iconPath: "/icons/pie.png",
         boxColor: const Color.fromARGB(255, 151, 174, 204)));
 
     categories.add(CategoryModel(
         name: "Smoothie",
-        iconPath: "assets/icons/smoothie.png",
+        iconPath: "/icons/smoothie.png",
         boxColor: const Color.fromARGB(255, 246, 180, 233)));
 
     return categories;
